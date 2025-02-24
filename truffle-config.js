@@ -1,5 +1,10 @@
 const config = {
   networks: {
+    local: {
+      host: "localhost",
+      port: 8545,
+      network_id: "0"
+    },
     mainnet: {
       host: "localhost",
       port: 8545,
@@ -24,11 +29,6 @@ const config = {
       host: "localhost",
       port: 8545,
       network_id: "100"
-    },
-    local: {
-      host: "localhost",
-      port: 8545,
-      network_id: "*"
     }
   },
   mocha: {
