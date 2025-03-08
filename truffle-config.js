@@ -3,7 +3,7 @@ const config = {
     local: {
       host: "localhost",
       port: 8545,
-      network_id: "0"
+      network_id: "31337"
     },
     mainnet: {
       host: "localhost",
