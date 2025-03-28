@@ -10,6 +10,7 @@
     "networks": "truffle networks",
     "test": "truffle test",
     "lint-contracts": "solium -d contracts/",
+    "deploy:dev": "truffle migrate --network local",
     "injectnetinfo": "tnt iN",
     "extractnetinfo": "tnt eN",
     "resetnetinfo": "truffle networks --clean && tnt iN",
